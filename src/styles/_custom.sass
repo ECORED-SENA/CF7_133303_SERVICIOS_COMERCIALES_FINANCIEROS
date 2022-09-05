@@ -2,14 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 9%
+    right: 0%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 47%
+    right: 12%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 91%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 47%
+    right: 9%
+    width: 50px
 
 @keyframes float1
   0%
@@ -17,3 +27,107 @@
 
   100%
     transform: translateY(0px)
+
+.txt-color1
+  color: #FC8116
+  font-weight: bold
+
+.bg1
+  background-color: #FDFEF9
+
+.bg2
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: +-1rem
+    left: -49px
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 1rem)
+    background-image: url("../assets/curso/tema1/img7.png") 
+    background-repeat: no-repeat
+    background-size: cover
+
+.bg3
+  background-color: #C2E8B0
+
+.bg4
+  position: relative
+  .row, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: +-1rem
+    left: -49px
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 6rem)
+    background-image: url("../assets/curso/tema1/img8.png") 
+    background-repeat: no-repeat
+    background-size: cover
+
+.bg5
+  background-color: #FEEFBF
+
+.bg6
+  background-color: #F5D774
+  width: 15%
+  
+
+  
+.img-t
+  width: auto
+  height: auto  
+
+.tarjeta--azul 
+  background-color: #FEE89F
+  border-radius: 20px
+  
+.img-infografica-b__modal
+  min-height: 250px !important
+  width: 140% !important
+  position: relative
+  left: -130px
+  top: 148px
+  border-radius: 20px
+
+.fa-plus:before   
+  color: black
+  font-size: 18px
+
+.img-infografica-b.color-acento-botones .img-infografica-b__item__numero 
+  color: black
+  font-size: 26px
+
+.img-infografica__card
+  width: 350px !important
+
+.img-infografica-b__modal
+  background-color: #F6F6F6 !important
+
+.img-infografica-b__modal__contenido div > *
+  color: #12263F !important
+
+.fa-times:before
+  color: #11253E
+
+@media (max-width: 576px)
+  .img-infografica-b__modal
+    left: -50px
+  .sizeimg
+    width: 40% !important
+    height: 35% !important
+
+
+
+.tarjeta--azul.acordion__activo
+  background-color: #E1F3D7
+  border-radius: 10px
+
+.tarjeta--azul
+  background-color: #C4E1B3
+  border-radius: 10px
