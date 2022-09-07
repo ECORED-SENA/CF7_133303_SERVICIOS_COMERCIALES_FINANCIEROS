@@ -167,14 +167,14 @@
         figure
           img(src='@/assets/curso/tema2/img16.png').m-auto
       .col-lg-7
-        p La administración y gestión que se hace de la información se realiza a través de un software diseñado para extraer, modificar y programar los datos recolectados. El uso de esta herramienta es elegido según diferentes características y modelos existentes, configurándola según las necesidades de cada entidad.
-        p Por otro lado, estos softwares garantizan la confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.
-        p.mb-5 En las organizaciones el uso de las bases de datos se gestiona por medio de herramientas digitales que le permiten su administración, esto por un software que responde a las necesidades según la magnitud de las bases que maneje cada entidad, a continuación, se presentan las más utilizadas.
+        p La administración y gestión que se hace de la información se realiza a través de un <em>software</em> diseñado para extraer, modificar y programar los datos recolectados. El uso de esta herramienta es elegido según diferentes características y modelos existentes, configurándola según las necesidades de cada entidad.
+        p Por otro lado, estos <em>softwares</em> garantizan la confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.
+        p.mb-5 En las organizaciones el uso de las bases de datos se gestiona por medio de herramientas digitales que le permiten su administración, esto por un <em>software</em> que responde a las necesidades según la magnitud de las bases que maneje cada entidad, a continuación, se presentan las más utilizadas.
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.color-acento-botones.p-4(titulo="Microsoft SQL Server:")
+      .tarjeta.color-acento-botones.p-4(titulo="<em>Microsoft SQL Server</em>:")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 Microsoft SQL Server:  
+            h4 <em>Microsoft SQL Server</em>:  
             p.mb-3 Esta herramienta sirve para gestionar bases de datos de forma relacional, extrayendo información y creando cuadros de comparación frente a los datos solicitados versus lo encontrado.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
@@ -187,26 +187,26 @@
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img18.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="Oracle Database:")
+      .tarjeta.color-acento-botones.p-4(titulo="<em>Oracle Database</em>:")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 Oracle Database: 
+            h4 <em>Oracle Database</em>: 
             p.mb-0 Es una herramienta de gestión de bases de datos relacional que extrae información, compara y entrega, teniendo la particularidad el nivel de seguridad dejando solo administradores con permisos en su uso.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img19.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="Microsoft Access:")
+      .tarjeta.color-acento-botones.p-4(titulo="<em>Microsoft Access</em>:")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 Microsoft Access:
+            h4 <em>Microsoft Access</em>:
             p.mb-0 Es una herramienta para el uso de manejo y gestión de la información que se puede adecuar a Excel, Sharepoint y demás componentes, trabaja de forma relacional para entrega de reportes o consultas.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img20.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="FileMarker:")
+      .tarjeta.color-acento-botones.p-4(titulo="<em>FileMarker</em>:")
         .row
           .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 FileMarker: 
+            h4 <em>FileMarker</em>: 
             p.mb-0 Es una aplicación de Mac y Windows para bases de datos relacionales, sirve para extraer información y comparar con la particularidad que es multiplataforma lo que facilita trabajar con las gráficas propias del equipo del usuario.
           .col-lg-3.d-flex.align-items-center.justify-content-center
             figure

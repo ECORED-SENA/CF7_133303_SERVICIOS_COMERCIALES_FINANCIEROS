@@ -85,7 +85,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-10
                   h4.mb-3.text-dark Filtros
-                  p En esta fase se selecciona la información por contenido, se organiza y revisa para evitar duplicidad, también se genera un solo formato para todos los datos ya sea por medio del software empleado o de forma manual, por último, se hace una limpieza que consiste en corregir faltas o incoherencias, para un entendimiento y facilitar su análisis. 
+                  p En esta fase se selecciona la información por contenido, se organiza y revisa para evitar duplicidad, también se genera un solo formato para todos los datos ya sea por medio del <em>software</em> empleado o de forma manual, por último, se hace una limpieza que consiste en corregir faltas o incoherencias, para un entendimiento y facilitar su análisis. 
                   h4 Ejemplo
                   p Se configuran los archivos de Excel en un solo formato CSV para su lectura.
                 .col-lg-2

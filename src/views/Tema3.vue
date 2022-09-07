@@ -5,20 +5,20 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Big Data 
+      h1 <em>Big Data</em> 
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-5.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img1.png').m-auto
       .col-lg-7
         p Este  #[span.txt-color1 término hace referencia al conjunto de grandes volúmenes de datos estructurados y no estructurados, que permiten a las organizaciones tomar mejores decisiones tras el análisis de datos complejos de una forma más comprensible y que necesitan aplicaciones informáticas apropiadas para el tratamiento adecuado de los datos,] cada día se procesan más de 2,5 quintillones de bytes de datos en el mundo, que pueden ser desde consultas en el navegador de internet hasta complejos informes sobre el proceso de fabricación de un producto. Este término hace referencia a conjuntos de datos tan grandes y complejos que necesitan aplicaciones informáticas apropiadas para el tratamiento adecuado de los datos (Barranca, 2012).
-        p El ejemplo más claro es la pandemia por el Coronavirus, en la que, mediante herramientas de Big Data e Industria 4.0 para combatir el COVID, se pudieron generar sistemas de geolocalización para conocer la propagación del virus en tiempo real. Dentro de la industria, las aplicaciones son más puntuales como, por ejemplo, en donde la planta está recibiendo la información de los pedidos ajustados, basados en las preferencias de color o modelo, de los consumidores que visualizan los productos en buscadores de internet. Otra aplicación, es el seguimiento de la eficiencia de los procesos en cada una de las fases en tiempo real.
+        p El ejemplo más claro es la pandemia por el Coronavirus, en la que, mediante herramientas de <em>Big Data</em> e Industria 4.0 para combatir el COVID, se pudieron generar sistemas de geolocalización para conocer la propagación del virus en tiempo real. Dentro de la industria, las aplicaciones son más puntuales como, por ejemplo, en donde la planta está recibiendo la información de los pedidos ajustados, basados en las preferencias de color o modelo, de los consumidores que visualizan los productos en buscadores de internet. Otra aplicación, es el seguimiento de la eficiencia de los procesos en cada una de las fases en tiempo real.
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-1.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img2.svg').m-auto
       .col-lg-11
-        p Este  #[span.txt-color1 Los beneficios más destacados que aporta el Big Data a la industria es la velocidad de entrega de la información en grandes volúmenes y variedad de formatos dispuestos en distintas fuentes como redes sociales, internet de las cosas, bases de datos internas y externas, Web Service entre otras.] Además de estos beneficios, hay otros como el seguimiento de equipos en tiempo real, para identificación de eventos que tengan probabilidad de ocurrencia de una parada de producción por daños mecánicos o bajas de energía e identificación de cuellos de botella en el proceso productivo.
+        p Este  #[span.txt-color1 Los beneficios más destacados que aporta el <em>Big Data</em> a la industria es la velocidad de entrega de la información en grandes volúmenes y variedad de formatos dispuestos en distintas fuentes como redes sociales, internet de las cosas, bases de datos internas y externas, Web Service entre otras.] Además de estos beneficios, hay otros como el seguimiento de equipos en tiempo real, para identificación de eventos que tengan probabilidad de ocurrencia de una parada de producción por daños mecánicos o bajas de energía e identificación de cuellos de botella en el proceso productivo.
         p Cuando se hace referencia al Big data, también se asocia a las “V” que lo caracterizan, las cuales se presentan en el siguiente recurso de aprendizaje:
       .col-lg-12
         figure
@@ -75,7 +75,7 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Tipos de datos
-    p.mb-5 Los datos que se presentan en la gestión del Big Data son:
+    p.mb-5 Los datos que se presentan en la gestión del <em>Big Data</em> son:
     .bg14.p-3.mb-3.mt-3(data-aos="fade-right")
       .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
         .col-md-7
@@ -170,7 +170,7 @@
     #t_3_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.4 Tecnologías para analizar grandes volúmenes de datos
-    p.mb-5 En la siguiente tabla se presentan las herramientas para el proceso de análisis y administración del Big Data:
+    p.mb-5 En la siguiente tabla se presentan las herramientas para el proceso de análisis y administración del <em>Big Data</em>:
     .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -179,7 +179,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4 Herramientas para analizar grandes volúmenes de datos. Tabla 1
-              p.mb-0 Lo invitamos a consultar el siguiente recurso que muestra un el ejemplo de las herramientas para el proceso de análisis y administración del Big Data.
+              p.mb-0 Lo invitamos a consultar el siguiente recurso que muestra un el ejemplo de las herramientas para el proceso de análisis y administración del <em>Big Data</em>.
             .col-sm-auto
               a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/anexo4.pdf')" target="_blank")
                 span Descargar 
@@ -192,7 +192,7 @@
               img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
           .col-lg-10
             h4.bg6.ps-3.mt-2 Nota:
-            p.mb-0 El uso de cualquiera de estas herramientas para analizar datos por medio del Big Data depende de la complejidad, volumen y tipo de información que maneje cada entidad.
+            p.mb-0 El uso de cualquiera de estas herramientas para analizar datos por medio del <em>Big Data</em> depende de la complejidad, volumen y tipo de información que maneje cada entidad.
 
 </template>
 
