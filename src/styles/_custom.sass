@@ -50,6 +50,10 @@
     background-image: url("../assets/curso/tema1/img7.png") 
     background-repeat: no-repeat
     background-size: cover
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
 
 .bg3
   background-color: #C2E8B0
@@ -75,10 +79,99 @@
 
 .bg6
   background-color: #F5D774
-  width: 15%
+  width: 20%
+  background-size: cover
+  background-repeat: no-repeat
+  
+.bg7
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -1rem
+    left: 259px
+    width: calc( 100% + -11rem)
+    height: calc( 100% + 2rem)
+    background-image: url("../assets/curso/tema1/img50.svg") 
+    background-repeat: no-repeat
+    background-size: cover
+
+
+.bg8
+  background-image: url("../assets/curso/tema1/img52.png")
+  background-size: 100%
+  background-repeat: no-repeat
   
 
+.img01
+  position: absolute
+  right: 140px
+  @media (max-width: $bp-max-sm)
+   position: inherit
+   right: 0px
+
+.bg9
+  background-image: url("../assets/curso/tema1/img58.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  @media (max-width: $bp-max-md)
+    background-size: cover
+    left: -8px
+    width: calc( 100% + 1rem)
+ 
   
+.bg10
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -2rem
+    left: -33px
+    width: calc( 100% + 5rem)
+    height: calc( 100% + 6rem)
+    background-image: url("../assets/curso/tema1/img58.svg") 
+    background-repeat: no-repeat
+    background-size: contain
+
+.bg11
+  background-color: #F5D774
+
+.bg12
+  background-image: url("../assets/curso/tema2/img3.svg")
+  background-size: contain
+  background-repeat: no-repeat
+
+.bg13
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 1rem
+    left: -280px
+    width: calc( 100% + 24rem)
+    height: calc( 100% + 5rem)
+    background-image: url("../assets/curso/tema3/img4.png")
+    background-repeat: no-repeat
+    background-size: cover
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+  
+.bg14
+  background-image: url("../assets/curso/tema3/img10.svg")
+  background-size: contain
+  background-repeat: no-repeat
+
 .img-t
   width: auto
   height: auto  
@@ -122,8 +215,6 @@
     width: 40% !important
     height: 35% !important
 
-
-
 .tarjeta--azul.acordion__activo
   background-color: #E1F3D7
   border-radius: 10px
@@ -131,3 +222,87 @@
 .tarjeta--azul
   background-color: #C4E1B3
   border-radius: 10px
+ 
+.tarjeta--azul1
+  background-color: #FED5B1
+  border-radius: 10px
+  border: 3px solid #F3B178
+
+.tarjeta--azul2
+  background-color: #FEEFBF
+  border-radius: 10px
+  border: 3px solid #F2D577
+
+.moditabs
+  .tabs-b__tab
+    img
+      filter: grayscale(1)
+      filter: invert(165%) sepia(-14%) saturate(24%) hue-rotate(192deg) brightness(87%) contrast(82%)
+  .tabs-b__tab.tabs-b__tab--active
+    img 
+      filter: grayscale(0)
+
+.resal
+  background-color: #E1F3D7
+
+.tarjeta.color-acento-contenido1 
+  background-color: #FED5B1
+  border-radius: 10px
+
+.tarjeta.color-acento-contenido2 
+  background-color: #E1F3D7
+  border-radius: 10px
+
+.tarjeta.color-acento-contenido3 
+  background-color: #FEEFBF
+  border-radius: 10px
+
+.tarjeta.color-acento-contenido4 
+  background-color: #F6FBD1
+  border-radius: 10px
+.tarjeta-avatar > img 
+  left: 53%
+  top: 19px
+
+.tarjeta.color-1
+  background-color: #FFF5EC
+  background-size: cover
+  border: 3px solid #FC8116
+
+.tarjeta.tarjeta--gris1
+  background-color: #FFF5EC
+  background-size: cover
+  border: 3px solid #FC8116
+
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color:#FC8116
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #FC8116
+
+.slyder-a__bullets__item
+  background-color: #FECCA1
+  border-color: #FECCA1
+
+.slyder-a__bullets__item--active
+  background-color: #FC8116
+  border-color: #FC8116
+
+.bloque-texto-a.color-primario
+  background-color: #FED5B1
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.tarjeta.color-acento-botones
+  background-color: #E8E8E8
+  p
+    color: #12263F
+
+.tarjeta.color-acento-botones *
+  color: #12263F
+
+.tarjeta.color-primario4
+  background-color: #E9F4F9
+  width: 100%
+  height: 278px
