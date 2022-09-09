@@ -22,11 +22,11 @@
       h2 2.1 Clasificación 
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
       .col-10.bg5.p-4
-        .row.align-items-center.justify-content-center
+        .row.align-items-center.justify-content-center.bg11
           .col-lg-2.mb-3
             figure
               img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
-          .col-lg-8.bg11
+          .col-lg-8
             p.p-3 Las bases de datos en las entidades usualmente se clasifican según la necesidad de las organizaciones de la siguiente manera:
     .bg12.p-3.mb-3.mt-5(data-aos="fade-right")
       .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
@@ -105,7 +105,7 @@
             .col-12
               .row.align-items-center
                 .col-md-8.align-items-center
-                  p.ps-5Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica tiene la facilidad de manejar volúmenes grandes de información de forma eficiente. 
+                  p.ps-5 Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica tiene la facilidad de manejar volúmenes grandes de información de forma eficiente. 
                 .col-lg-4.col-md-6.col-12.p-0
                   figure
                     img.img-t(src='@/assets/curso/tema2/img9.svg').mx-auto
@@ -151,12 +151,12 @@
                     img.img-t(src='@/assets/curso/tema2/img14.svg').mx-auto
       .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
         .col-8.bg5.p-4
-          .row.align-items-center.justify-content-center
+          .row.align-items-center.justify-content-center.bg6_2
             .col-lg-2.mb-3
               figure
                 img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
             .col-lg-10
-              h4.bg6.ps-3.mt-2 Nota:
+              h4.mt-2 Nota:
               p.mb-0 Se aclara que los modelos van asociados a la tecnología, características y diferentes herramientas que se integran como la recolección de los datos, según cada entidad, presupuesto y necesidades. 
     Separador
     #t_2_4
@@ -173,50 +173,50 @@
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-acento-botones.p-4(titulo="<em>Microsoft SQL Server</em>:")
         .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
+          .col-lg-10.mb-4.mb-lg-0.p-4
             h4 <em>Microsoft SQL Server</em>:  
-            p.mb-3 Esta herramienta sirve para gestionar bases de datos de forma relacional, extrayendo información y creando cuadros de comparación frente a los datos solicitados versus lo encontrado.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
+            p.mb-0 Esta herramienta sirve para gestionar bases de datos de forma relacional, extrayendo información y creando cuadros de comparación frente a los datos solicitados versus lo encontrado.
+          .col-lg-2.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img17.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="MySQL:")
+      .tarjeta.color-acento-botones.p-4(titulo="<em>MySQL</em>:")
         .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 MySQL: 
+          .col-lg-10.mb-4.mb-lg-0.p-4
+            h4 <em>MySQL</em>:
             p.mb-0 Esta herramienta gestiona bases de datos de forma correlacional por medio abierto es decir uso público siendo una de las más conocidas en todo el mundo, extrae información, relaciona y entrega reporte.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
+          .col-lg-2.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img18.png').m-auto
       .tarjeta.color-acento-botones.p-4(titulo="<em>Oracle Database</em>:")
         .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
+          .col-lg-10.mb-4.mb-lg-0.p-4
             h4 <em>Oracle Database</em>: 
             p.mb-0 Es una herramienta de gestión de bases de datos relacional que extrae información, compara y entrega, teniendo la particularidad el nivel de seguridad dejando solo administradores con permisos en su uso.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
+          .col-lg-2.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img19.png').m-auto
       .tarjeta.color-acento-botones.p-4(titulo="<em>Microsoft Access</em>:")
         .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
+          .col-lg-10.mb-4.mb-lg-0.p-4
             h4 <em>Microsoft Access</em>:
-            p.mb-0 Es una herramienta para el uso de manejo y gestión de la información que se puede adecuar a Excel, Sharepoint y demás componentes, trabaja de forma relacional para entrega de reportes o consultas.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
+            p.mb-0 Es una herramienta para el uso de manejo y gestión de la información que se puede adecuar a <em>Excel, Sharepoint</em> y demás componentes, trabaja de forma relacional para entrega de reportes o consultas.
+          .col-lg-2.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img20.png').m-auto
       .tarjeta.color-acento-botones.p-4(titulo="<em>FileMarker</em>:")
         .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
+          .col-lg-10.mb-4.mb-lg-0.p-4
             h4 <em>FileMarker</em>: 
-            p.mb-0 Es una aplicación de Mac y Windows para bases de datos relacionales, sirve para extraer información y comparar con la particularidad que es multiplataforma lo que facilita trabajar con las gráficas propias del equipo del usuario.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
+            p.mb-0 Es una aplicación de <em>Mac y Windows</em> para bases de datos relacionales, sirve para extraer información y comparar con la particularidad que es multiplataforma lo que facilita trabajar con las gráficas propias del equipo del usuario.
+          .col-lg-2.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img21.png').m-auto
       .tarjeta.color-acento-botones.p-4(titulo="dBASE:")
         .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
+          .col-lg-10.mb-4.mb-lg-0.p-4
             h4 dBASE:
             p.mb-0 Es la herramienta pionera en la gestión de base de datos, se utiliza manejando palabras claves de búsqueda y lugar en donde hacerlo, es utilizado por entidades que manejan un nivel de información baja y de fácil administración.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
+          .col-lg-2.d-flex.align-items-center.justify-content-center
             figure
               img(src='@/assets/curso/tema2/img22.png').m-auto
 </template>

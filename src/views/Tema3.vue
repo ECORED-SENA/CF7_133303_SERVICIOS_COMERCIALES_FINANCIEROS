@@ -18,7 +18,7 @@
         figure
           img(src='@/assets/curso/tema3/img2.svg').m-auto
       .col-lg-11
-        p Este  #[span.txt-color1 Los beneficios más destacados que aporta el <em>Big Data</em> a la industria es la velocidad de entrega de la información en grandes volúmenes y variedad de formatos dispuestos en distintas fuentes como redes sociales, internet de las cosas, bases de datos internas y externas, Web Service entre otras.] Además de estos beneficios, hay otros como el seguimiento de equipos en tiempo real, para identificación de eventos que tengan probabilidad de ocurrencia de una parada de producción por daños mecánicos o bajas de energía e identificación de cuellos de botella en el proceso productivo.
+        p  #[span.txt-color1] Los beneficios más destacados que aporta el <em>Big Data</em> a la industria es la velocidad de entrega de la información en grandes volúmenes y variedad de formatos dispuestos en distintas fuentes como redes sociales, internet de las cosas, bases de datos internas y externas, Web Service entre otras.] Además de estos beneficios, hay otros como el seguimiento de equipos en tiempo real, para identificación de eventos que tengan probabilidad de ocurrencia de una parada de producción por daños mecánicos o bajas de energía e identificación de cuellos de botella en el proceso productivo.
         p Cuando se hace referencia al Big data, también se asocia a las “V” que lo caracterizan, las cuales se presentan en el siguiente recurso de aprendizaje:
       .col-lg-12
         figure
@@ -30,7 +30,7 @@
     p.mb-5 El contenido de información que se transmite funciona bajo la siguiente metodología conocida como las 3 V:
     .row.bg13.justify-content-center
       .col-lg-10
-        PasosA.color-primario.mb-5(tipo="n")(data-aos="fade-right")
+        PasosA.color-primario.mb-5.mdf(tipo="n")(data-aos="fade-right")
           div
             .row.align-items-center.justify-content-end
               .col-lg.mb-4
@@ -61,7 +61,7 @@
                 figure
                   img(src='@/assets/curso/tema3/img8.svg')
               .col-lg
-              h4 Veracidad 
+                h4 Veracidad 
                 p Hace énfasis a la calidad y exactitud de la información.
           div
             .row.align-items-center.justify-content-end
@@ -77,33 +77,33 @@
       h2 3.2 Tipos de datos
     p.mb-5 Los datos que se presentan en la gestión del <em>Big Data</em> son:
     .bg14.p-3.mb-3.mt-3(data-aos="fade-right")
-      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
-        .col-md-7
+      .row.justify-content-end.align-items-center(data-aos="fade-left").mb-5
+        .col-md-5
           .col-lg-12.mb-4.ps-3
             .tarjeta-avatar-b.mb-0.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img12.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul1
-                .p-3
-                  h4 Estructurados 
-                  p.mt-3 Estos datos tienen definido su formato y extensión haciendo posible su almacenamiento en tablas como sucede en el caso de una fuente de información de datos. 
+              .tarjeta.tarjeta--azul1.d-flex.align-items-center
+                div.p-2
+                  h4.mb-0 Estructurados 
+                  p.mb-0 Estos datos tienen definido su formato y extensión haciendo posible su almacenamiento en tablas como sucede en el caso de una fuente de información de datos. 
           .col-lg-12.mb-4.ps-3
             .tarjeta-avatar-b.mb-0.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img13.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul1
-                .p-3
-                  h4 No estructurado 
-                  p.mt-3 Son estos datos que por el tipo de formato no se puede almacenar en tablas como el caso de archivos pdf, correos videos entre otros.  
+              .tarjeta.tarjeta--azul1.d-flex.align-items-center
+                div.p-2
+                  h4.mb-0 No estructurado 
+                  p.mb-0 Son estos datos que por el tipo de formato no se puede almacenar en tablas como el caso de archivos pdf, correos videos entre otros.  
           .col-lg-12.mb-4.ps-3
             .tarjeta-avatar-b.mb-0.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img14.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul1
-                .p-3
-                  h4 Semiestructurado
-                  p.mt-3 Son archivos que se pueden adaptar y ser relacionados como el caso de archivos HTML o XML.
-        .col-md-5.col-7(data-aos="fade-left")
+              .tarjeta.tarjeta--azul1.d-flex.align-items-center
+                div.p-2
+                  h4.mb-0 Semiestructurado
+                  p.mb-0 Son archivos que se pueden adaptar y ser relacionados como el caso de archivos HTML o XML.
+        .col-md-6.col-7(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema3/img11.svg')(data-aos="fade-left")
     Separador
@@ -184,14 +184,14 @@
               a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/anexo4.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
+    .row.mb-5.justify-content-center.align-items-center
       .col-10.bg5.p-4
-        .row.align-items-center.justify-content-center
+        .row.align-items-center.justify-content-center.bg6_3
           .col-lg-2.mb-3
             figure
               img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
           .col-lg-10
-            h4.bg6.ps-3.mt-2 Nota:
+            h4.mt-2 Nota:
             p.mb-0 El uso de cualquiera de estas herramientas para analizar datos por medio del <em>Big Data</em> depende de la complejidad, volumen y tipo de información que maneje cada entidad.
 
 </template>

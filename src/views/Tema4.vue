@@ -7,10 +7,10 @@
         span 4
       h1 Técnicas de gestión de datos masivos
     .bg15.p-4.mb-5.mt-5(data-aos="fade-right")
-      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
+      .row.justify-content-end.align-items-center(data-aos="fade-left")
         .col-lg-12
           p.ps-5 El proceso para realizar la gestión de datos está inmerso en cuatro técnicas generales que son:
-        .col-lg-6.ms-5
+        .col-lg-5.ms-5
           ul.lista-ul--color
             li
               i.fas.fa-check-circle(style="color:#FC8116")
@@ -24,16 +24,16 @@
             li
               i.fas.fa-check-circle(style="color:#FC8116")
               p.mb-0 #[b Análisis de texto:] realiza la modelación de la información extraída por contenido textual. 
-        .col-md-5.col-8(data-aos="fade-left")
+        .col-md-6.col-8(data-aos="fade-left")
             img(src='@/assets/curso/tema4/img2.svg')
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
       .col-10.bg16.p-4
-        .row.align-items-center.justify-content-center
+        .row.align-items-center.justify-content-center.bg17
           .col-lg-2.mb-3
             figure
               img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
-          .col-lg-8.bg17
-            p.p-3 Cabe resaltar que estas técnicas van acompañadas por las diferentes herramientas digitales y métodos que escoge cada empresa.
+          .col-lg-8
+            p.p-3.mb-0 Cabe resaltar que estas técnicas van acompañadas por las diferentes herramientas digitales y métodos que escoge cada empresa.
     Separador
     #t_4_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -54,12 +54,12 @@
                 i.fas.fa-file-download
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
       .col-10.bg5.p-4
-        .row.align-items-center.justify-content-center
+        .row.align-items-center.justify-content-center.bg6_4
           .col-lg-2.mb-3
             figure
               img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
           .col-lg-10
-            h4.bg6.ps-3.mt-2 Nota:
+            h4.mt-2 Nota:
             p.mb-0 Cada entidad utiliza el método según requerimientos en su gestión.
     Separador
     #t_4_2
@@ -83,28 +83,28 @@
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img3.svg', style="width: 100px")
+          img.mdf_1(src='@/assets/curso/tema4/img3.svg', style="width: 124px")
           .tarjeta.color-acento-contenido5
             .p-4
               h4.text-center <em>Select</em>
               p Es la lenguaje que se utiliza para seleccionar ya sean filas, tablas y demás.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img4.svg', style="width: 100px")
+          img.mdf_1(src='@/assets/curso/tema4/img4.svg', style="width: 124px")
           .tarjeta.color-acento-contenido5
             .p-4
               h4.text-center <em>Insert</em>
               p Es el idioma para ingresar información a la base de datos.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img5.svg', style="width: 100px")
+          img.mdf_1(src='@/assets/curso/tema4/img5.svg', style="width: 124px")
           .tarjeta.color-acento-contenido5
             .p-4 
               h4.text-center <em>Delete</em>
               p Es el lenguaje para eliminar datos o usuarios
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/img6.svg', style="width: 100px")
+          img.mdf_1(src='@/assets/curso/tema4/img6.svg', style="width: 124px")
           .tarjeta.color-acento-contenido5 
             .p-4
               h4.text-center <em>Update</em>

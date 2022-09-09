@@ -128,12 +128,12 @@
                   img.mb-3.img-t(src='@/assets/curso/tema1/img17.svg').mx-auto
       .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
         .col-8.bg5.p-4
-          .row.align-items-center.justify-content-center
+          .row.align-items-center.justify-content-center.bg6
             .col-lg-2.mb-3
               figure
                 img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
             .col-lg-10
-              h4.bg6.ps-3.mt-2 Nota:
+              h4.mt-2 Nota:
               p.mb-0 Cabe resaltar que la información obtenida queda en una base de datos creada por la entidad por si en algún momento se requiere consultar.
     Separador
     #t_1_2
@@ -146,7 +146,7 @@
       .col-lg-10
         p.mb-0 Hace unas décadas #[b el hablar de obtener información, requería de grandes actividades para conseguirla y su forma de adquisición era escasa, ahora gracias a las diferentes herramientas digitales y canales, la obtención de la misma es abundante]. En la actualidad el reto es administrar bien los datos e interpretar de forma correcta su análisis.   
     
-    p.mb-4 Teniendo en cuenta lo anterior, las entidades aplican una serie de métodos de recolección de datos desde las más básicas hasta las más modernas, #[span.txt-color1 los medios utilizados son la entrevista, la observación, encuesta, análisis documental] y demás instrumentos que son manejados para su análisis por medio de las siguientes técnicas:
+    p.mb-4 Teniendo en cuenta lo anterior, las entidades aplican una serie de métodos de recolección de datos desde las más básicas hasta las más modernas, #[span.txt-color1 los medios utilizados son la entrevista, la observación, la encuesta, el análisis documental] y los demás instrumentos que son manejados para su análisis por medio de las siguientes técnicas:
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -255,7 +255,7 @@
           img(src='@/assets/curso/tema1/img35.png').m-auto
       .col-lg-7
         p Este proceso consiste en tomar o extraer información requerida por las entidades de diferentes bases de datos o fuentes, su nombre está asociado a la minería ya que la extracción es vital en ambas actividades; por otro lado, su propósito es extraer datos útiles que ayuden a la resolución de las diferentes situaciones que se originan en las entidades y su gestión se puede hacer a través de herramientas estadísticas tanto básicas como avanzadas que proporciona la inteligencia artificial.
-        .row.mb-5.bg3.p-2.align-items-center.justify-content-center
+        .row.mb-5.bgr3.p-2.align-items-center.justify-content-center
           .col-lg-3.mb-2
             figure
               img(src='@/assets/curso/tema1/img36.svg')(data-aos="fade-right")
@@ -334,25 +334,25 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img45.svg', style="width: 100px")
           .tarjeta.color-acento-contenido1
-            .p-4
+            .p-4.text-center
               p #[b Proceso de datos,] es decir revisar la información y eliminar lo que no sirve.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img46.svg', style="width: 100px")
           .tarjeta.color-acento-contenido2
-            .p-4
+            .p-4.text-center
               p #[b Elección de características,] es decir tomar las variables influyentes a solucionar el problema.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img47.svg', style="width: 100px")
           .tarjeta.color-acento-contenido3
-            .p-4
+            .p-4.text-center
               p #[b Uso de algoritmos,] es decir utilizar el modelo de conocimiento más acorde según las técnicas. 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img48.svg', style="width: 100px")
           .tarjeta.color-acento-contenido4
-            .p-4
+            .p-4.text-center
               p #[b Análisis y evaluación,] es decir comprobar que las validaciones sean reales.
     p.mb-5 En el siguiente recurso se expondrán las técnicas que utiliza esta herramienta de recolección de datos:
     .bg7
@@ -432,30 +432,27 @@
     p.mb-5 Esta actividad #[span.txt-color1 se enfoca en limpiar y recopilar los datos que van a ser utilizados, consultados, investigados, extraídos o buscados, con el propósito de que la información sea precisa y válida para los diferentes análisis que se requieren hacer en el proceso,] garantizando la seguridad de los datos obtenidos.
     p.mb-5 Las organizaciones en la preparación de datos tienen en cuenta:
     .bg8.p-3.mb-3.mt-3(data-aos="fade-right")
-      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
-        .col-md-7
+      .row.justify-content-end.align-items-center(data-aos="fade-left").mb-5
+        .col-md-5
           .col-lg-12.mb-4.ps-3
             .tarjeta-avatar-b.mb-0.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img56.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul1
-                .p-4
-                  p.mt-4 Claridad de la información y seguridad en el acceso de un lugar seguro.
+              .tarjeta.tarjeta--azul1.d-flex.align-items-center
+                p.mb-0.p-3 Claridad de la información y seguridad en el acceso de un lugar seguro.
           .col-lg-12.mb-4.ps-3
             .tarjeta-avatar-b.mb-0.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img54.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul1
-                .p-4
-                  p.mt-4 Confiabilidad de los datos obteniendo información fidedigna veraz, visible y auditable por si se debe modificar.
+              .tarjeta.tarjeta--azul1.d-flex.align-items-center
+                p.mb-0.p-3 Confiabilidad de los datos obteniendo información fidedigna veraz, visible y auditable por si se debe modificar.
           .col-lg-12.mb-4.ps-3
             .tarjeta-avatar-b.mb-0.h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img55.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul1
-                .p-4
-                  p.mt-4 Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias
-        .col-md-5.col-7(data-aos="fade-left")
+              .tarjeta.tarjeta--azul1.d-flex.align-items-center
+                  p.mb-0.p-3 Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias
+        .col-md-6.col-7(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema1/img53.svg')(data-aos="fade-left")
     p.mb-5 Ahora para preparar los datos estructurados se siguen las siguientes fases:
@@ -474,12 +471,12 @@
               | Limpieza de la información que consiste en corregir, eliminar duplicidad, suprimir datos incompletos y salvaguardar información confidencial.
           .row.mb-5.justify-content-center.align-items-center
             .col-12.bg5.p-4
-              .row.align-items-center.justify-content-center
+              .row.align-items-center.justify-content-center.bg6_1
                 .col-lg-3.mb-3
                   figure
                     img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
                 .col-lg-9
-                  h4.bg6.ps-3 Nota:
+                  h4 Nota:
                   p.mb-0 Estimados aprendices esta actividad se realiza por medio de las herramientas digitales, informáticas o de inteligencia artificial según lo estipule cada organización.
         .col-md-4.col-8(data-aos="fade-left")
             img(src='@/assets/curso/tema1/img57.svg')

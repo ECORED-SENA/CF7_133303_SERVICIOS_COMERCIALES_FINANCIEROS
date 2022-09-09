@@ -257,7 +257,7 @@ export default {
     {
       termino: 'Almacenamiento de datos',
       significado:
-        'Guardar datos en un software u otra herramienta, generalmente de forma ordenada, para poder disponer cuando se necesite o convenga.',
+        'Guardar datos en un <em>software</em> u otra herramienta, generalmente de forma ordenada, para poder disponer cuando se necesite o convenga.',
     },
     {
       termino: 'Análisis',
@@ -418,7 +418,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

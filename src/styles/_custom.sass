@@ -58,6 +58,21 @@
 .bg3
   background-color: #C2E8B0
 
+.bgr3
+  position: relative
+  .row, p, h4, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 29px
+    left: 0
+    width: 100%
+    height: 59%
+    background-color: #C2E8B0
+  
+
 .bg4
   position: relative
   .row, .row
@@ -79,10 +94,71 @@
   border-radius: 10px
 
 .bg6
-  background-color: #F5D774
-  width: 20%
-  background-size: cover
-  background-repeat: no-repeat
+  position: relative
+  .row, p, h4, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 20px
+    left: 65px
+    width: 22%
+    height: 26%
+    background-color: #F5D774
+  &_1
+    position: relative
+    .row, p, h4, figure
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0 
+      top: 17px
+      left: 68px
+      width: 32%
+      height: 26%
+      background-color: #F5D774
+  &_2
+    position: relative
+    .row, p, h4, figure
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0 
+      top: 8px
+      left: 65px
+      width: 22%
+      height: 26%
+      background-color: #F5D774
+  &_3
+    position: relative
+    .row, p, h4, figure
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0 
+      top: 32px
+      left: 88px
+      width: 19%
+      height: 26%
+      background-color: #F5D774
+  &_4
+    position: relative
+    .row, p, h4, figure
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0 
+      top: 48px
+      left: 88px
+      width: 19%
+      height: 21%
+      background-color: #F5D774
+
   
 .bg7
   position: relative
@@ -141,7 +217,18 @@
     background-size: contain
 
 .bg11
-  background-color: #F5D774
+  position: relative
+  .row, p, h4, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 26%
+    left: 16%
+    width: 81%
+    height: 41%
+    background-color: #FDD85E
 
 .bg12
   background-image: url("../assets/curso/tema2/img3.svg")
@@ -179,17 +266,41 @@
   background-repeat: no-repeat
 
 .bg16
-  background-color: #E4F476
+  position: relative
+  .row, p, h4, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 37px
+    left: 68px
+    width: 90%
+    height: 64%
+    background-color: #E4F476
+    border-radius: 10px
 
 .bg17
-  background-color: #F6FBD1
+  position: relative
+  .row, p, h4, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 49px
+    left: 170px
+    width: 78%
+    height: 40%
+    background-color: #F6FBD1
+    border-radius: 10px
 
 .img-t
   width: auto
   height: auto  
 
 .tarjeta--azul 
-  background-color: #FEE89F
+  background-color: #FEE89F !important
   border-radius: 20px
   
 .img-infografica-b__modal
@@ -199,7 +310,14 @@
   left: -130px
   top: 148px
   border-radius: 20px
-
+.mdf
+  .text-end 
+    text-align: left!important
+  &_1
+    border-radius: 50%
+    background-color: #FCD03E
+    &:hover
+      background-color: #FD963D
 .fa-plus:before   
   color: black
   font-size: 18px
@@ -228,11 +346,11 @@
     height: 35% !important
 
 .tarjeta--azul.acordion__activo
-  background-color: #E1F3D7
+  background-color: #E1F3D7 !important
   border-radius: 10px
 
 .tarjeta--azul
-  background-color: #C4E1B3
+  background-color: #C4E1B3 !important
   border-radius: 10px
  
 .tarjeta--azul1
@@ -275,7 +393,7 @@
 
 .tarjeta.color-acento-contenido5 
   background-color: #E1F3D7
-  border-radius: 10px
+  border-radius: 20px
 
 .tarjeta-avatar > img 
   left: 53%
@@ -320,6 +438,6 @@
   color: #12263F
 
 .tarjeta.color-primario4
-  background-color: #E9F4F9
+  background-color: #E1F3D7
   width: 100%
   height: 278px
