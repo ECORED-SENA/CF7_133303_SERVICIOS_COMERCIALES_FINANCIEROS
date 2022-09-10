@@ -18,7 +18,7 @@
         figure
           img(src='@/assets/curso/tema3/img2.svg').m-auto
       .col-lg-11
-        p  #[span.txt-color1] Los beneficios más destacados que aporta el <em>Big Data</em> a la industria es la velocidad de entrega de la información en grandes volúmenes y variedad de formatos dispuestos en distintas fuentes como redes sociales, internet de las cosas, bases de datos internas y externas, Web Service entre otras.] Además de estos beneficios, hay otros como el seguimiento de equipos en tiempo real, para identificación de eventos que tengan probabilidad de ocurrencia de una parada de producción por daños mecánicos o bajas de energía e identificación de cuellos de botella en el proceso productivo.
+        p  #[span.txt-color1] Los beneficios más destacados que aporta el <em>Big Data</em> a la industria es la velocidad de entrega de la información en grandes volúmenes y variedad de formatos dispuestos en distintas fuentes como redes sociales, internet de las cosas, bases de datos internas y externas, <em>Web Service</em> entre otras.] Además de estos beneficios, hay otros como el seguimiento de equipos en tiempo real, para identificación de eventos que tengan probabilidad de ocurrencia de una parada de producción por daños mecánicos o bajas de energía e identificación de cuellos de botella en el proceso productivo.
         p Cuando se hace referencia al Big data, también se asocia a las “V” que lo caracterizan, las cuales se presentan en el siguiente recurso de aprendizaje:
       .col-lg-12
         figure
