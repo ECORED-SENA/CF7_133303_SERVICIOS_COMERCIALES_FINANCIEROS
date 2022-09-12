@@ -65,7 +65,7 @@
               h4 PDF Características de las bases de datos
               p.mb-0 Lo invitamos a consultar el siguiente recurso que muestra un ejemplo de las características de las bases de datos.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/anexo3.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/Anexo3.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
     Separador

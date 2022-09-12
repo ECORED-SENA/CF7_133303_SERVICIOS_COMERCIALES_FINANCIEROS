@@ -340,7 +340,7 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img46.svg', style="width: 100px")
           .tarjeta.color-acento-contenido2
-            .p-4.text-center
+            .p-4
               p #[b Elección de características,] es decir tomar las variables influyentes a solucionar el problema.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
