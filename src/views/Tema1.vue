@@ -457,7 +457,7 @@
             img(src='@/assets/curso/tema1/img53.svg')(data-aos="fade-left")
     p.mb-5 Ahora para preparar los datos estructurados se siguen las siguientes fases:
     .bg9.p-4.mb-5.mt-5(data-aos="fade-right")
-      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
+      .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
         .col-lg-7.ms-5
           ul.lista-ul--color
             li
