@@ -38,7 +38,7 @@
     #t_4_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Metodologías
-    p.mb-5 EEn la actualidad existen varias metodologías que se utilizan para el análisis de datos masivos de las cuales el aprendiz conocerá el método, su característica y ejemplo para que pueda relacionar en su entorno laboral mediante la siguiente tabla.
+    p.mb-5 En la actualidad existen varias metodologías que se utilizan para el análisis de datos masivos de las cuales el aprendiz conocerá el método, su característica y ejemplo para que pueda relacionar en su entorno laboral mediante la siguiente tabla.
     .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -71,7 +71,8 @@
         p.mb-5 A continuación en el siguiente video, se presentan las principales herramientas de almacenamiento de datos: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7h_ZMWGtGUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+
     Separador
     #t_4_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")

@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 Para concluir con la unidad temática se retroalimenta sobre la importancia de la información en las organizaciones y que el debido análisis de los datos aporta en la sostenibilidad de las entidades y se invita a observar el siguiente mapa conceptual.
+    p.mb-5 A continuación encontrará una síntesis de la temática estudiada en el componente formativo:
     
     .row.justify-content-center
       .col-lg-10.mb-5

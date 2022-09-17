@@ -244,7 +244,8 @@
         p.mb-5 Para analizar la información obtenida por la entidad, las organizaciones emplean un conjunto de modelos y metodologías cuantitativas y cualitativas, como se observó en los puntos anteriores y para ampliar el conocimiento de modelos y metodologías de analítica, se invita a ver el siguiente video:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hFMDtOJDBco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)(data-aos="fade-right")
+        
     Separador
     #t_1_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
