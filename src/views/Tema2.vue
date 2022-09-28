@@ -168,7 +168,7 @@
           img(src='@/assets/curso/tema2/img16.png').m-auto
       .col-lg-7
         p La administración y gestión que se hace de la información se realiza a través de un <em>software</em> diseñado para extraer, modificar y programar los datos recolectados. El uso de esta herramienta es elegido según diferentes características y modelos existentes, configurándola según las necesidades de cada entidad.
-        p Por otro lado, estos <em>softwares</em> garantizan la confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.
+        p Por otro lado, estos <em>software</em> garantizan la confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.
         p.mb-5 En las organizaciones el uso de las bases de datos se gestiona por medio de herramientas digitales que le permiten su administración, esto por un <em>software</em> que responde a las necesidades según la magnitud de las bases que maneje cada entidad, a continuación, se presentan las más utilizadas.
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-acento-botones.p-4(titulo="<em>Microsoft SQL Server</em>:")

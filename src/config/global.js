@@ -297,7 +297,7 @@ export default {
     {
       termino: 'Toma de decisiones',
       significado:
-        'Proceso en el cual un individuo o grupo de individuos deben elegir entre varias opciones. Este proceso se activa cuando hay que resolver un conflicto o situación que requiere de una acción concreta',
+        'Proceso en el cual un individuo o grupo de individuos deben elegir entre varias opciones. Este proceso se activa cuando hay que resolver un conflicto o situación que requiere de una acción concreta.',
     },
   ],
   referencias: [

@@ -12,7 +12,7 @@
           img(src='@/assets/curso/tema3/img1.png').m-auto
       .col-lg-7
         p Este  #[span.txt-color1 término hace referencia al conjunto de grandes volúmenes de datos estructurados y no estructurados, que permiten a las organizaciones tomar mejores decisiones tras el análisis de datos complejos de una forma más comprensible y que necesitan aplicaciones informáticas apropiadas para el tratamiento adecuado de los datos,] cada día se procesan más de 2,5 quintillones de bytes de datos en el mundo, que pueden ser desde consultas en el navegador de internet hasta complejos informes sobre el proceso de fabricación de un producto. Este término hace referencia a conjuntos de datos tan grandes y complejos que necesitan aplicaciones informáticas apropiadas para el tratamiento adecuado de los datos (Barranca, 2012).
-        p El ejemplo más claro es la pandemia por el Coronavirus, en la que, mediante herramientas de <em>Big Data</em> e Industria 4.0 para combatir el COVID, se pudieron generar sistemas de geolocalización para conocer la propagación del virus en tiempo real. Dentro de la industria, las aplicaciones son más puntuales como, por ejemplo, en donde la planta está recibiendo la información de los pedidos ajustados, basados en las preferencias de color o modelo, de los consumidores que visualizan los productos en buscadores de internet. Otra aplicación, es el seguimiento de la eficiencia de los procesos en cada una de las fases en tiempo real.
+        p El ejemplo más claro es la pandemia por el Coronavirus, en la que, mediante herramientas de #[i Big Data] e Industria 4.0 para combatir el COVID, se pudieron generar sistemas de geolocalización para conocer la propagación del virus en tiempo real. Dentro de la industria, las aplicaciones son más puntuales como, por ejemplo, en donde la planta está recibiendo la información de los pedidos ajustados, basados en las preferencias de color o modelo, de los consumidores que visualizan los productos en buscadores de internet. Otra aplicación, es el seguimiento de la eficiencia de los procesos en cada una de las fases en tiempo real.
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-1.mb-4.mb-lg-0
         figure
@@ -153,7 +153,7 @@
         .tarjeta.color-primario4
           .p-4
             h4.text-center Aprendizaje Bayesiano
-            p.mb-0.text-center Busca datos para encontrar soluciones por probabilidades
+            p.mb-0.text-center Busca datos para encontrar soluciones por probabilidades.
       .tarjeta-avatar
         img(src='@/assets/curso/tema3/img22.svg', style="width: 125px")
         .tarjeta.color-primario4

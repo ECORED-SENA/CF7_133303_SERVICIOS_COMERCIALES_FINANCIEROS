@@ -280,7 +280,7 @@
             .col-12
               .row.align-items-center
                 .col-md-9.align-items-center
-                  p.ps-5 Encontrando las categorías o conjuntos de los datos
+                  p.ps-5 Encontrando las categorías o conjuntos de los datos.
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
                     img.img-t(src='@/assets/curso/tema1/img39.svg', alt='Texto que describa la imagen').mx-auto
@@ -312,7 +312,7 @@
             .col-12
               .row.align-items-center
                 .col-md-9.align-items-center
-                  p.ps-5 Encontrando cambios que pueden originar los datos
+                  p.ps-5 Encontrando cambios que pueden originar los datos.
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
                     img.img-t(src='@/assets/curso/tema1/img43.svg').mx-auto
@@ -412,7 +412,7 @@
           img(src='@/assets/curso/tema1/img51.svg', alt='Texto que describa la imagen')
       .tarjeta.color-1.p-3(x="83.3%" y="64%" numero="")
         .h5.mb-2 Encuesta
-        p Es según Bernal (2.000) “una de las técnicas más reconocidas y utilizadas, a pesar de que ha perdido credibilidad por  el sesgo que hay en las personas encuestadas y por el uso cada vez más frecuente de TIC´S” (p.172)  
+        p Es según Bernal (2.000) “una de las técnicas más reconocidas y utilizadas, a pesar de que ha perdido credibilidad por  el sesgo que hay en las personas encuestadas y por el uso cada vez más frecuente de TIC´S” (p.172). 
         p Por tanto, la encuesta está fundada en un agregado de interrogantes que son planeadas con la finalidad de obtener información de las personas en referencia a una temática o hecho específico. 
       .tarjeta.color-1.p-3(x="35%" y="42%" numero="")
         .h5.mb-2 Entrevista
@@ -425,7 +425,7 @@
         p Se utiliza bajo los criterios de fichas bibliográficas que analizan material impreso o digital, su principal uso está en la elaboración del marco teórico del estudio.
       .tarjeta.color-1.p-3(x="17%" y="27%" numero="")
         .h5.mb-2 Búsquedas web  
-        p la consulta de bases de datos, páginas web, bloog´s, en la red virtual se ha convertido en técnica de recolección de información por excelencia de toda la sociedad. 
+        p La consulta de bases de datos, páginas web, bloog´s, en la red virtual se ha convertido en técnica de recolección de información por excelencia de toda la sociedad. 
     Separador
     #t_1_6
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -452,7 +452,7 @@
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img55.svg' alt='AvatarTop')
               .tarjeta.tarjeta--azul1.d-flex.align-items-center
-                  p.mb-0.p-3 Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias
+                  p.mb-0.p-3 Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias.
         .col-md-6.col-7(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema1/img53.svg')(data-aos="fade-left")
@@ -512,22 +512,22 @@
                   ul.lista-ul.ps-5
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 Disponibilidad en la red para descarga 
+                      p.mb-0 Disponibilidad en la red para descarga. 
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 Licencia abierta
+                      p.mb-0 Licencia abierta.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 Datos legibles
+                      p.mb-0 Datos legibles.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 Manejo de URL dando mayor cobertura
+                      p.mb-0 Manejo de URL dando mayor cobertura.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 Formato abierto
+                      p.mb-0 Formato abierto.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 Su creación se hace según necesidades de la comunidad
+                      p.mb-0 Su creación se hace según necesidades de la comunidad.
                 .col-lg-3.col-md-6.col-12.p-0
                   figure
                     img.img-t(src='@/assets/curso/tema1/img61.svg', alt='Texto que describa la imagen').mx-auto
@@ -541,16 +541,16 @@
                       p.mb-0 #[b Abiertos:] al servicio para consulta. 
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 #[b Oportunos:] información relevante
+                      p.mb-0 #[b Oportunos:] información relevante.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 #[b Utilizables:] con licencias abiertas
+                      p.mb-0 #[b Utilizables:] con licencias abiertas.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 #[b Comparables:] en diferentes momentos y sectores
+                      p.mb-0 #[b Comparables:] en diferentes momentos y sectores.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
-                      p.mb-0 #[b Incentivadores:] aumenta la confianza y transparencia en un gobierno
+                      p.mb-0 #[b Incentivadores:] aumenta la confianza y transparencia en un gobierno.
                     li 
                       i.fas.fa-circle(style="color:#529D2E")
                       p.mb-0 #[b Innovadores:] como puede ser reutilizable, genera nuevo conocimiento que puede ser innovador.
